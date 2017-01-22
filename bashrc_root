@@ -1,0 +1,14 @@
+# ==== Everything below was added by DML
+
+# aliases
+
+alias ll='ls -alFh --group-directories-first'
+
+# custom color codes
+
+red='\[\e[0;31m\]'
+RED='\[\e[1;31m\]'
+nc='\[\e[0m\]'
+
+# custom PS1 prompt
+PS1="$RED[$red\u$nc@$red\H$nc:\w$RED]$nc# "
