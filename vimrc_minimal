@@ -1,0 +1,40 @@
+" vimrc
+"
+" Created by David M. Logan
+" 2017 October
+" Last updated 
+"
+" This is my minimal vanilla vim setup
+" A lot of this was inspired by this article:
+" https://medium.com/@peterxjang/how-to-learn-vim-a-four-week-plan-cd8b376a9b85
+
+" ---- ---- ---- ----
+"  Appearance
+
+syntax enable       " enable syntax color
+colorscheme molokai " colorscheme    
+
+set number          " show line numbers
+set showcmd         " shows last command in bottom left
+
+" ---- ---- ---- ----
+"  Spaces & Tabs
+
+set tabstop=2       " number of visual spaces
+set softtabstop=2   " number of spaces each tab equals
+set expandtab       " makes tabs into spaces
+
+set autoindent      " auto indentation
+
+" ---- ---- ---- ----
+" Find/Search
+
+" Everything in this section came from:
+" https://www.youtube.com/watch?v=XA2WjJbmmoM&t=408s
+
+" search into subdirectories recursively endlessly
+set path+=**
+
+" display all matching files when tab complete
+set wildmenu
+
