@@ -30,6 +30,9 @@ nc='\[\e[0m\]'
 # custom PS1 prompt
 PS1="$GREEN[$BLUE\u$green@$BLUE\H$blue:\w$GREEN]\$$nc "
 
+# custom PS1 prompt for root
+#PS1="$RED[$red\u$red@$BLUE\H$blue:\w$RED]\$$nc "
+
 # set default editors...
 
 # set a default editor
@@ -38,4 +41,3 @@ EDITOR=/usr/bin/vim; export EDITOR=/usr/bin/vim
 export GIT_EDITOR=/usr/bin/vim
 
 # ==== End of my custom .bashrc
-
