@@ -6,6 +6,7 @@ URxvt.scrollBar: off
 URxvt.font: xft:monospace:size=12
 URxvt.internalBorder:     22
 URxvt.geometry: 120x38
+URxvt.saveLines: 20000
 
 ! =================
 *background:  #282F37
